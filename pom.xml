@@ -12,7 +12,7 @@
 	<artifactId>silphSiw</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>silphSiw</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Silph Spa project</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -45,6 +45,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
