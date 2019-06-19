@@ -6,8 +6,8 @@ public class PhotoForm {
 
     private String name;
     private String desc;
-    private Long album_id;
-    private Long photographer_id;
+    private Long albumId;
+    private Long photographerId;
     private MultipartFile file;
 
     public String getName() {
@@ -26,20 +26,20 @@ public class PhotoForm {
         this.desc = desc;
     }
 
-    public Long getAlbum_id() {
-        return album_id;
+    public Long getAlbumId() {
+        return albumId;
     }
 
-    public void setAlbum_id(Long album_id) {
-        this.album_id = album_id;
+    public void setAlbumId(Long albumId) {
+        this.albumId = albumId;
     }
 
-    public Long getPhotographer_id() {
-        return photographer_id;
+    public Long getPhotographerId() {
+        return photographerId;
     }
 
-    public void setPhotographer_id(Long photographer_id) {
-        this.photographer_id = photographer_id;
+    public void setPhotographerId(Long photographerId) {
+        this.photographerId = photographerId;
     }
 
     public MultipartFile getFile() {
