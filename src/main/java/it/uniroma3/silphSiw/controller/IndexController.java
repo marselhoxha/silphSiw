@@ -8,9 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-    @RequestMapping("/")
-    public String addManager(Model model) {
-        model.addAttribute("manager" , new PhotoManager());
+    @RequestMapping("/index")
+    public String index() {
         return "index.html";
+    }
+    @RequestMapping("/gallery")
+    public String gallery() {
+        return "gallery.html";
     }
 }
