@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.web.access.AccessDeniedHandler;
 
@@ -24,7 +25,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/", "/home", "/about").permitAll()
+                .antMatchers("/", "/home", "/about","/login", "/index", "/gallery", "/index.html", "/gallery.html","/login.html").permitAll()
                 .antMatchers("/admin/**").hasAnyRole("ADMIN")
                 .antMatchers("/user/**").hasAnyRole("USER")
                 .anyRequest().authenticated()
@@ -49,13 +50,13 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .withUser("admin").password("password").roles("ADMIN");
     }
 
-    /*
+
     //Spring Boot configured this already.
     @Override
     public void configure(WebSecurity web) throws Exception {
         web
                 .ignoring()
-                .antMatchers("/resources/**", "/static/**", "/css/**", "/js/**", "/images/**");
-    }*/
+                .antMatchers("/resources/**", "/static/**", "/css/**", "/js/**", "/images/**","/fonts/**", "/scss/**", "/templates/**");
+    }
 
 }
