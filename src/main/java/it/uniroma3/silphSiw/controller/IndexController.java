@@ -10,10 +10,14 @@ public class IndexController {
 
     @RequestMapping("/index")
     public String index() {
-        return "index.html";
+        return "/index";
     }
     @RequestMapping("/gallery")
     public String gallery() {
-        return "gallery.html";
+        return "/gallery";
+    }
+    @RequestMapping("/login")
+    public String login() {
+        return "/login";
     }
 }
