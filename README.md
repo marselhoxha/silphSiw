@@ -11,9 +11,11 @@
 * visualize form requests filled by clients
 
 ### Technologies used:
-* SpringBoot, Spring Data JPA, Spring Security, Thymeleaf, Bootstrap, Html5, Css3, H2 Database
+* SpringBoot, Spring Data JPA, Spring Security, Thymeleaf, Bootstrap, Html5, Css3, H2 in memory Database
 
 ### Screenshots
-![image](https://github.com/marselhoxha/silphSiw/blob/master/src/main/resources/static/screenshots/silph1.PNG)
-![image](https://github.com/marselhoxha/silphSiw/blob/master/src/main/resources/static/screenshots/silph2.PNG)
-
+![image](https://github.com/marselhoxha/silphSiw/blob/master/src/main/resources/static/screenshots/login.PNG)
+![image](https://github.com/marselhoxha/silphSiw/blob/master/src/main/resources/static/screenshots/home.PNG)
+![image](https://github.com/marselhoxha/silphSiw/blob/master/src/main/resources/static/screenshots/gallery.PNG)
+![image](https://github.com/marselhoxha/silphSiw/blob/master/src/main/resources/static/screenshots/form.PNG)
+![image](https://github.com/marselhoxha/silphSiw/blob/master/src/main/resources/static/screenshots/photo.PNG)
