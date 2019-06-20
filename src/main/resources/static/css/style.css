@@ -7929,20 +7929,20 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #f67e7d;
-    border: 1px solid #f67e7d;
+    background: rgba(0, 31, 40, 0.61);
+    border: 1px solid #EAE7DC;
     color: #fff; }
     .btn.btn-primary:hover {
-      border: 1px solid #f67e7d;
+      border: 1px solid rgba(0, 31, 40, 0.61);
       background: transparent;
-      color: #f67e7d; }
+      color: rgba(0, 31, 40, 0.61) }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #f67e7d;
+      border: 1px solid rgba(0, 31, 40, 0.61);
       background: transparent;
-      color: #f67e7d; }
+      color: rgba(0, 31, 40, 0.61) }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #f67e7d;
+        background: rgba(0, 31, 40, 0.61);
         color: #fff; }
   .btn.btn-white {
     background: #fff;
